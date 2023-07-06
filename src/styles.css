@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2vw;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vh 2vw;
+  background-color: lightblue;
+  color: black;
+}
+.link {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.navigasi {
+  display: flex;
+  gap: 2vw;
+}
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30vh;
+  gap: 12px;
+}
+img {
+  width: 25%;
+}
+.footer {
+  background-color: lightblue;
+  text-align: center;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  color: black;
+}
